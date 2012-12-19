@@ -1,4 +1,5 @@
 #!/bin/bash
+#创建python文件的时候 在文件的 开始添加 一些 信息!~
 
 [ -e $1 ] && ISMPTC=`wc -m $1 | cut -d ' ' -f1`
 
