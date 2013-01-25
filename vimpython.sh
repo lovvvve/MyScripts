@@ -12,7 +12,8 @@ cat >$1<<EOF
 #:Date: `date +%F`
 #:Version: 1.0
 #:Author: lovvvve
-#:Options: 
+#:Mail: lovvvve@gmail.com
+#:Options:
 
 
 EOF
