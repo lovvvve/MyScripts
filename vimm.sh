@@ -7,11 +7,11 @@ if [ ! -e $1 ] || [ $ISMPTC -eq 0 ] ; then
 cat >$1<<EOF
 #!/bin/bash
 #:Tital: `basename $1`
-#:synopsis: `basename $1`
+#:Synopsis: `basename $1`
 #:Date: `date +%F`
 #:Version: 1.0
 #:Author: lovvvve
-#:Options: 
+#:Options:
 
 EOF
 fi
@@ -21,7 +21,7 @@ vim +8 $1
 until bash -n $1;do
   echo -n  "youcuoqu q/Q yuichu qita bianji : "
   read CHOICE
-  [[ $CHOICE = [Qq] ]] && echo "exiting..." && exit 78 
+  [[ $CHOICE = [Qq] ]] && echo "exiting..." && exit 78
   vim +8 $1
 done
 
